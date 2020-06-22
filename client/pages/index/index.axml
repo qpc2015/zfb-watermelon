@@ -1,0 +1,43 @@
+<scroll-view scroll-y="true" class="scrollview">
+	<view class="banner">
+		<swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+			<block wx:for="{{background}}" wx:key="*this">
+				<swiper-item>
+					<image src="{{item}}" mode="scaleToFill" lazy-load="true"></image>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
+
+
+	<view class="topview">
+		<block wx:for="{{topList}}" wx:key="*this">
+			<q-icon-item title="{{item.title}}" iconPath="{{item.icon}}" />
+		</block>
+	</view>
+
+
+	<view class="case">
+		<q-head-title title="成功案例" showMore="{{true}}"></q-head-title>
+		<block wx:for="{{caseList}}" wx:key="unique">
+			<q-case-item info="{{item}}"></q-case-item>
+		</block>
+
+	</view>
+
+
+	<view class="range">
+		<q-head-title title="服务范围"></q-head-title>
+		<view class="rangeList">
+			<block wx:for="{{rangeList}}" wx:key="unique">
+				<q-range-item iconPath="{{item.icon}}" title="{{item.title}}"></q-range-item>
+			</block>
+		</view>
+	</view>
+
+	<view class="step">
+		<q-head-title title="服务流程"></q-head-title>
+		<image class="step-img" lazy-load="true" src="https://6368-charg-q0fve-1300598164.tcb.qcloud.la/mini/step.png?sign=fca18f7c16b209994f3f8045f3dfb7a7&t=1588657145"></image>
+	</view>
+
+</scroll-view>

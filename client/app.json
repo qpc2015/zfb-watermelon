@@ -1,0 +1,36 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/consult/consult",
+    "pages/contact/contact"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "defaultTitle": "西瓜软件"
+  },
+  "tabBar": {
+    "textColor": "#dddddd",
+    "selectedColor": "#49a9ee",
+    "backgroundColor": "#ffffff",
+    "items": [
+      {
+        "pagePath": "pages/index/index",
+        "name": "首页",
+        "icon": "./images/home.png",
+        "activeIcon": "./images/home_selete.png"
+      },
+      {
+        "pagePath": "pages/consult/consult",
+        "name": "产品咨询",
+        "icon": "./images/consult.png",
+        "activeIcon": "./images/consult_selete.png"
+      },
+      {
+        "pagePath": "pages/contact/contact",
+        "name": "联系我们",
+        "icon": "./images/contact.png",
+        "activeIcon": "./images/contact_selete.png"
+      }
+    ]
+  }
+}
