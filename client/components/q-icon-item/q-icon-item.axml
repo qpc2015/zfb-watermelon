@@ -1,0 +1,4 @@
+<view class="iconItem">
+  <image class="iconImg" src="{{iconPath}}"></image>
+  <text class="title">{{title}}</text>
+</view>
