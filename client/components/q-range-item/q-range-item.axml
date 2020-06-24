@@ -1,0 +1,4 @@
+<view class="range">
+  <image src="{{iconPath}}"></image>
+  <text>{{title}}</text>
+</view>

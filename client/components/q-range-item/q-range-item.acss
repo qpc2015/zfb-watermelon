@@ -1,0 +1,19 @@
+.range{
+  display: flex;
+  height: 252rpx;
+  width: 220rpx;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.range image{
+  width: 220rpx;
+  height: 150rpx;
+}
+
+.range text{
+  color: #555555;
+  font-size: 26rpx;
+  margin-top: 13rpx;
+}

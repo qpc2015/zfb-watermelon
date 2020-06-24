@@ -1,1 +1,68 @@
-/* required by usingComponents */
+.scrollview {
+  background-color: #F6F6F6;
+  height: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: 300rpx;
+}
+
+.banner image {
+  width: 100%;
+  height: 100%;
+}
+
+/* 顶部分栏 */
+
+.topview {
+  width: 100%;
+  height: 220rpx;
+  background-color: white;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.case {
+  width: 100%;
+  height: 480rpx;
+  margin-top: 10rpx;
+  background-color: white;
+}
+
+/* 服务范围 */
+
+.service-range {
+  width: 100%;
+  height: 332rpx;
+  margin-top: 10rpx;
+  background-color: white;
+}
+
+/* .rangeList{
+  justify-content: space-evenly; 
+} */
+
+/* .rangeTitle {
+  height: 80rpx;
+} */
+
+/* .flexitem {
+  background-color: blue;
+  flex: 0;
+  height: 252rpx;
+  width: 220rpx;
+} */
+
+/* 服务流程 */
+
+.step {
+  width: 100%;
+  height: 350rpx;
+  margin: 10rpx 0;
+}
+
+.step-img {
+  width: 100%;
+  height: 466rpx;
+}

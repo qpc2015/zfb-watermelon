@@ -1,5 +1,10 @@
 {
   "usingComponents":{
-    "q-icon-item":"/components/q-icon-item/q-icon-item"
+    "q-icon-item":"/components/q-icon-item/q-icon-item",
+    "q-head-title":"/components/q-head-title/q-head-title",
+    "q-case-item":"/components/q-case-item/q-case-item",
+    "q-range-item":"/components/q-range-item/q-range-item",
+    "flex": "mini-ali-ui/es/flex/index",
+    "flex-item": "mini-ali-ui/es/flex/flex-item/index"
   }
 }

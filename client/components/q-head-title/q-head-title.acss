@@ -1,0 +1,19 @@
+.header{
+  height: 80rpx;
+  line-height: 80rpx;
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  padding: 0 32rpx;
+}
+
+.header text {
+  color: #3E3E46;
+  font-size: 42rpx;
+  font-weight: bold;
+}
+
+.header .more {
+  font-size: 24rpx;
+  color: #555555;
+}

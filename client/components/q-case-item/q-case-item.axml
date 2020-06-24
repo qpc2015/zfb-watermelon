@@ -1,0 +1,7 @@
+<view class="caseitem">
+  <image src="{{info.image}}"></image>
+  <view class="rightview">
+    <text>{{info.title}}</text>
+    <view class="content">{{info.content}}</view>
+  </view>
+</view>

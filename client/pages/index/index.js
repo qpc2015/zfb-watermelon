@@ -21,12 +21,12 @@ Page({
     ],
     caseList:[
       {
-        icon:"../../images/intro.png",
+        image:"../../images/intro.png",
         title:"漫鱼按钮",
         content:"合法卡萨话费卡收到货合法卡萨话费卡收到货"
       },
       {
-        icon:"../../images/intro.png",
+        image:"../../images/intro.png",
         title:"成功案例",
         content:"合法卡萨话费卡收到货合法卡萨话费卡收到货"
       }
