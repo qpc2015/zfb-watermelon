@@ -1,3 +1,20 @@
-<view>
-  New Page
+<view class="contact">
+	<view class="header">
+		<image lazy-load="true" src="https://6368-charg-q0fve-1300598164.tcb.qcloud.la/mini/contactbanner.png?sign=4ea2e0635b2349d59a5dd1ea935bfcb6&t=1588653852"></image>
+		<view>我们的联系方式</view>
+	</view>
+
+	<view class="content">
+		<van-cell-group>
+			<block a:for="{{contactList}}" a:key="*this">
+				<van-cell>
+					<view slot="title">
+						<text>{{item.title}}</text>
+						<text class="content-value">{{item.value}}</text>
+					</view>
+				</van-cell>
+			</block>
+		</van-cell-group>
+	</view>
+
 </view>

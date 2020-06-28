@@ -1,3 +1,27 @@
-<view>
-  New Page
+<view class="consult">
+  <view class="header">
+    <image lazy-load="true" src="https://6368-charg-q0fve-1300598164.tcb.qcloud.la/mini/consultbanner.png?sign=75f69ff94d6daf90c4ee43046398c631&t=1588644530"></image>
+    <view>填写您的需求</view>
+  </view>
+  <view class="custom">
+    <!--<van-cell-group> -->
+    <van-field value="{{ username }}" label="姓名" placeholder="请输入用户名" onChange="nameOnChange"/>
+    <van-field value="{{ contactNum }}" type="number" label="联系电话" placeholder="请输入您的手机号码" onChange="numOnChange"/>
+    <van-field value="{{ wxcode }}" label="微信号" placeholder="请输入您的微信(选填)" onChange="wxOnChange"/>
+    <!--</van-cell-group> -->
+  </view>
+  <view class="consult-selete">
+    <view class="selete-title">您的需求</view>
+    <view class="service-seleted">
+      <radio-group onChange="onChange">
+        <label class="radio" a:for="{{services}}" a:key="consultid">
+          <radio value="{{item.title}}" checked="{{item.checked}}" disabled="{{item.disabled}}" />
+          <text class="radio-text">{{item.title}}</text>
+          <!--<van-radio custom-class="service-radio" checked-color="#3296FA" name="{{item.consultid}}" shape="square">{{item.title}}</van-radio> -->
+        </label>
+      </radio-group>
+    </view>
+  </view>
+  <button class="submitBtn" onTap="submitDidClick">提交</button>
+  <message a:if="{{tipShow}}" class="tipMsg" title="{{title}}" subTitle="{{subTitle}}" type="{{type}}"></message>
 </view>

@@ -47,7 +47,27 @@ Page({
     ]
   },
   onLoad(query) {
-    // 页面加载
-    console.info(`Page onLoad with query: ${JSON.stringify(query)}`);
-  }
+
+  },
+    getSuccessCase: function(){
+    db.collection('successCase').get({
+      success: (res) => {
+        console.log(res);
+        if(res.data.length>=2){
+          const arr = res.data;
+          let newarr = [arr[0],arr[1]];
+          this.setData({
+            caseList:newarr
+          })
+        }
+      }
+    });
+  },
+  rangeDidClick: function(e){
+    const indexId = e.currentTarget.dataset.index;
+    const item = this.data.rangeList[indexId];
+    my.navigateTo({
+      url: '/pages/detail/detail?title='+item.title+'&detail='+item.detailUrl,
+    })
+  },
 });

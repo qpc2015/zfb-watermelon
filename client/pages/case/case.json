@@ -1,0 +1,6 @@
+{
+  "usingComponents":{
+    "q-case-item":"/components/q-case-item/q-case-item"
+  },
+  "defaultTitle": "成功案例"
+}

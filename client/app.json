@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/consult/consult",
-    "pages/contact/contact"
+    "pages/contact/contact",
+    "pages/case/case",
+    "pages/case/case"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

@@ -1,1 +1,8 @@
-{}
+{
+  "usingComponents": {
+    "van-field": "vant-aliapp/dist/dist/field/index",
+    "message": "mini-ali-ui/es/message/index",
+    "van-toast": "vant-aliapp/dist/dist/toast/index"
+  },
+  "defaultTitle": "产品咨询"
+}

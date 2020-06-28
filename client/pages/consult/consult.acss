@@ -1,0 +1,61 @@
+.consult{
+  background-color: #F6F6F6;
+  height: 100%;
+  width: 100%;
+}
+
+.header image{
+  width: 100%;
+  height: 300rpx;
+}
+
+.header view,.selete-title {
+  height: 64rpx;
+  padding-left: 32rpx;
+  line-height: 64rpx;
+  background-color: white;
+  font-size: 28rpx;
+}
+
+/* 用户信息 */
+.custom{
+  margin-top: 10rpx;
+  height: 270rpx;
+  width: 100%;
+}
+
+/* 需求 */
+.consult-selete{
+  width: 100%;
+  height: 320rpx;
+  margin-top: 10rpx;
+  background-color: white;
+}
+
+.service-seleted{
+  padding-left:40rpx;
+}
+
+.service-radio{
+  margin-top: 5rpx;
+}
+
+.submitBtn{
+  margin: 40rpx auto;
+  width:680rpx;
+  height: 80rpx;
+  color: white;
+  background-color: #3296FA;
+  font-size: 30rpx;
+  font-weight: normal;
+}
+
+.radio {
+  display: block;
+}
+
+.tipMsg{
+  position: fixed;
+  top: 30%;
+  margin: 0 auto;
+}
