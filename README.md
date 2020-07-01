@@ -4,6 +4,6 @@
 
 效果如图:
 
-![](https://github.com/qpc2015/zfb-watermelon/blob/master/screenshot/xg1.jpeg)
-![](https://github.com/qpc2015/zfb-watermelon/blob/master/screenshot/xg2.jpeg)
+![](https://github.com/qpc2015/zfb-watermelon/blob/master/screenshot/xg1.png)
+![](https://github.com/qpc2015/zfb-watermelon/blob/master/screenshot/xg2.png)
 
